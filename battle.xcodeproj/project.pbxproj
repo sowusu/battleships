@@ -14,6 +14,14 @@
 		4B3E798C1AC5A0AC002F8CC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E798B1AC5A0AC002F8CC3 /* Images.xcassets */; };
 		4B3E798F1AC5A0AC002F8CC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E798D1AC5A0AC002F8CC3 /* LaunchScreen.xib */; };
 		4B3E799B1AC5A0AD002F8CC3 /* battleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E799A1AC5A0AD002F8CC3 /* battleTests.m */; };
+		4B3E79A61AC5A53B002F8CC3 /* shipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E79A51AC5A53B002F8CC3 /* shipView.m */; };
+		4B3E79A91AC5A77C002F8CC3 /* BoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E79A81AC5A77C002F8CC3 /* BoardCell.m */; };
+		4B3E79AC1AC748C5002F8CC3 /* optionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E79AB1AC748C5002F8CC3 /* optionsController.m */; };
+		4B3E79AF1AC86098002F8CC3 /* transitionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E79AE1AC86098002F8CC3 /* transitionsView.m */; };
+		4B3E79B11ACA3C53002F8CC3 /* sink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E79B01ACA3C53002F8CC3 /* sink.mp3 */; };
+		4B3E79B31ACA3C59002F8CC3 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E79B21ACA3C59002F8CC3 /* win.mp3 */; };
+		4BA7FCB21ACA68F000B41652 /* sink.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7FCB01ACA68F000B41652 /* sink.wav */; };
+		4BA7FCB31ACA68F000B41652 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4BA7FCB11ACA68F000B41652 /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		4B3E79941AC5A0AD002F8CC3 /* battleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = battleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3E79991AC5A0AD002F8CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3E799A1AC5A0AD002F8CC3 /* battleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = battleTests.m; sourceTree = "<group>"; };
+		4B3E79A41AC5A53B002F8CC3 /* shipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shipView.h; sourceTree = "<group>"; };
+		4B3E79A51AC5A53B002F8CC3 /* shipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shipView.m; sourceTree = "<group>"; };
+		4B3E79A71AC5A77C002F8CC3 /* BoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardCell.h; sourceTree = "<group>"; };
+		4B3E79A81AC5A77C002F8CC3 /* BoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardCell.m; sourceTree = "<group>"; };
+		4B3E79AA1AC748C5002F8CC3 /* optionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optionsController.h; sourceTree = "<group>"; };
+		4B3E79AB1AC748C5002F8CC3 /* optionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = optionsController.m; sourceTree = "<group>"; };
+		4B3E79AD1AC86098002F8CC3 /* transitionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transitionsView.h; sourceTree = "<group>"; };
+		4B3E79AE1AC86098002F8CC3 /* transitionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = transitionsView.m; sourceTree = "<group>"; };
+		4B3E79B01ACA3C53002F8CC3 /* sink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sink.mp3; sourceTree = "<group>"; };
+		4B3E79B21ACA3C59002F8CC3 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		4BA7FCB01ACA68F000B41652 /* sink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sink.wav; sourceTree = "<group>"; };
+		4BA7FCB11ACA68F000B41652 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +106,21 @@
 				4B3E79851AC5A0AC002F8CC3 /* ViewController.h */,
 				4B3E79861AC5A0AC002F8CC3 /* ViewController.m */,
 				4B3E79881AC5A0AC002F8CC3 /* Main.storyboard */,
+				4B3E79AA1AC748C5002F8CC3 /* optionsController.h */,
+				4B3E79AB1AC748C5002F8CC3 /* optionsController.m */,
+				4B3E79AD1AC86098002F8CC3 /* transitionsView.h */,
+				4B3E79AE1AC86098002F8CC3 /* transitionsView.m */,
 				4B3E798B1AC5A0AC002F8CC3 /* Images.xcassets */,
 				4B3E798D1AC5A0AC002F8CC3 /* LaunchScreen.xib */,
+				4BA7FCB01ACA68F000B41652 /* sink.wav */,
+				4BA7FCB11ACA68F000B41652 /* win.wav */,
 				4B3E797E1AC5A0AC002F8CC3 /* Supporting Files */,
+				4B3E79A41AC5A53B002F8CC3 /* shipView.h */,
+				4B3E79A51AC5A53B002F8CC3 /* shipView.m */,
+				4B3E79B21ACA3C59002F8CC3 /* win.mp3 */,
+				4B3E79B01ACA3C53002F8CC3 /* sink.mp3 */,
+				4B3E79A71AC5A77C002F8CC3 /* BoardCell.h */,
+				4B3E79A81AC5A77C002F8CC3 /* BoardCell.m */,
 			);
 			path = battle;
 			sourceTree = "<group>";
@@ -199,9 +231,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA7FCB31ACA68F000B41652 /* win.wav in Resources */,
+				4B3E79B31ACA3C59002F8CC3 /* win.mp3 in Resources */,
 				4B3E798A1AC5A0AC002F8CC3 /* Main.storyboard in Resources */,
 				4B3E798F1AC5A0AC002F8CC3 /* LaunchScreen.xib in Resources */,
+				4BA7FCB21ACA68F000B41652 /* sink.wav in Resources */,
 				4B3E798C1AC5A0AC002F8CC3 /* Images.xcassets in Resources */,
+				4B3E79B11ACA3C53002F8CC3 /* sink.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3E79AC1AC748C5002F8CC3 /* optionsController.m in Sources */,
+				4B3E79A61AC5A53B002F8CC3 /* shipView.m in Sources */,
 				4B3E79871AC5A0AC002F8CC3 /* ViewController.m in Sources */,
 				4B3E79841AC5A0AC002F8CC3 /* AppDelegate.m in Sources */,
 				4B3E79811AC5A0AC002F8CC3 /* main.m in Sources */,
+				4B3E79AF1AC86098002F8CC3 /* transitionsView.m in Sources */,
+				4B3E79A91AC5A77C002F8CC3 /* BoardCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +386,7 @@
 				INFOPLIST_FILE = battle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -356,6 +397,7 @@
 				INFOPLIST_FILE = battle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -412,6 +454,7 @@
 				4B3E79A01AC5A0AD002F8CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B3E79A11AC5A0AD002F8CC3 /* Build configuration list for PBXNativeTarget "battleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				4B3E79A31AC5A0AD002F8CC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
